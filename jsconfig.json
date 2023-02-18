@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/": ["resources/js/*"],
+            "@components/*": ["resources/js/components/*"],
+            "@hooks/*": ["resources/js/hooks/*"],
+            "@pages/*": ["resources/js/pages/*"],
+            "@utils/*": ["resources/js/utils/*"],
+            "@shared/*": ["resources/js/shared/*"],
+            "@context/*": ["resources/js/context/*"],
+            "@assets/*": ["resources/js/assets/*"]
+        }
+    },
+    "exclude": ["node_modules"]
+}
